@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Kumar | Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Piyush</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                     <li class="nav__item">
+                        <a href="#achievements" class="nav__link">Achievements</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button (can be repurposed or removed if sticking to dark theme) -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <canvas id="particles-js"></canvas>
+            <div class="home__container container grid">
+                <div class="home__data" data-scroll="fade-in-down">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Piyush Kumar</h1>
+                    <h3 class="home__education">Electronics & Communication Engineer</h3>
+
+                    <div class="home__buttons">
+                        <a download="" href="assets/pdf/Piyush.resume.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#projects" class="button">My Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section__title" data-scroll="fade-in-up">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/profile.jpg" alt="Piyush Kumar profile picture" class="about__img" data-scroll="fade-in-right">
+
+                <div class="about__data" data-scroll="fade-in-left">
+                    <p class="about__description">
+                        Aspiring ECE engineer with a strong passion for software development and AI/ML. I have hands-on experience in building full-stack applications and machine learning models. I thrive on solving complex problems and continuously learning new technologies.
+                    </p>
+                     <div class="about__info">
+                        <div class="about__box">
+                            <h3 class="about__title">01+</h3>
+                            <span class="about__subtitle">Years experience</span>
+                        </div>
+                        <div class="about__box">
+                            <h3 class="about__title">03+</h3>
+                            <span class="about__subtitle">Completed projects</span>
+                        </div>
+                        <div class="about__box">
+                            <h3 class="about__title">02+</h3>
+                            <span class="about__subtitle">Internships</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title" data-scroll="fade-in-up">My Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content" data-scroll="fade-in-up">
+                    <h3 class="skills__title"><i class="ri-braces-line"></i> Programming & Web</h3>
+                    <div class="skills__list grid">
+                        <div class="skills__data"><span class="skills__name">Python</span> <span class="skills__number">90%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 90%;"></span></div>
+                        <div class="skills__data"><span class="skills__name">JavaScript</span> <span class="skills__number">80%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 80%;"></span></div>
+                        <div class="skills__data"><span class="skills__name">React & Node.js</span> <span class="skills__number">75%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 75%;"></span></div>
+                        <div class="skills__data"><span class="skills__name">C++ / C</span> <span class="skills__number">85%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 85%;"></span></div>
+                    </div>
+                </div>
+
+                <div class="skills__content" data-scroll="fade-in-up">
+                    <h3 class="skills__title"><i class="ri-robot-line"></i> AI / ML</h3>
+                    <div class="skills__list grid">
+                        <div class="skills__data"><span class="skills__name">TensorFlow / PyTorch</span> <span class="skills__number">80%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 80%;"></span></div>
+                        <div class="skills__data"><span class="skills__name">Scikit-learn</span> <span class="skills__number">90%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 90%;"></span></div>
+                        <div class="skills__data"><span class="skills__name">OpenCV / YOLOv8</span> <span class="skills__number">70%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 70%;"></span></div>
+                        <div class="skills__data"><span class="skills__name">NumPy & Pandas</span> <span class="skills__number">95%</span></div>
+                        <div class="skills__bar"><span class="skills__percentage" style="width: 95%;"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!-- PROJECTS (Formerly INTRODUCTION) -->
+        <section class="introduction section" id="projects">
+            <h2 class="section__title" data-scroll="fade-in-up">Project Highlights</h2>
+            <div class="introduction__container container grid">
+                <a href="https://github.com/ogpiyush31" target="_blank" class="introduction__card" data-scroll="fade-in-up">
+                    <div class="introduction__icon-wrapper">
+                        <i class="ri-brain-line introduction__icon"></i>
+                    </div>
+                    <h3 class="introduction__title">FitMind – AI-Powered Wellness Companion</h3>
+                    <p class="introduction__description">A full-stack mental health platform with a generative feedback loop. Uses NLP emotion analysis to craft real-time AI responses—empathetic chats, mood-based visuals, and more.</p>
+                    <p class="introduction__tech">React | Node.js | Python | Hugging Face | Gemini | Stability AI</p>
+                    <span class="introduction__link"><i class="ri-github-fill"></i> View on GitHub</span>
+                </a>
+                <a href="https://github.com/ogpiyush31" target="_blank" class="introduction__card" data-scroll="fade-in-up" data-scroll-delay="100">
+                     <div class="introduction__icon-wrapper">
+                        <i class="ri-camera-lens-line introduction__icon"></i>
+                    </div>
+                    <h3 class="introduction__title">Real-Time Human Detection System</h3>
+                    <p class="introduction__description">An AI-powered surveillance tool using YOLOv8 for detecting and counting people in live video. Features a sleek Electron GUI, SQLite logging, and real-time alerting—ideal for smart spaces.</p>
+                    <p class="introduction__tech">YOLOv8 | Electron | SQLite</p>
+                    <span class="introduction__link"><i class="ri-github-fill"></i> View on GitHub</span>
+                </a>
+                <a href="https://github.com/ogpiyush31" target="_blank" class="introduction__card" data-scroll="fade-in-up" data-scroll-delay="200">
+                     <div class="introduction__icon-wrapper">
+                        <i class="ri-heart-pulse-line introduction__icon"></i>
+                    </div>
+                    <h3 class="introduction__title">Diabetes Prediction System</h3>
+                    <p class="introduction__description">A lightweight ML web app that predicts diabetes risk from health metrics. Built with Scikit-learn and Streamlit, featuring real-time predictions, data preprocessing, and model evaluation.</p>
+                     <p class="introduction__tech">Python | Scikit-learn | Streamlit</p>
+                     <span class="introduction__link"><i class="ri-github-fill"></i> View on GitHub</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="experience section" id="experience">
+            <h2 class="section__title" data-scroll="fade-in-up">My Experience</h2>
+            <div class="experience__container container grid">
+                <div class="experience__content" data-scroll="fade-in-up">
+                    <h3 class="experience__title"><i class="ri-briefcase-4-line"></i> PeakStreak Pvt. Ltd.</h3>
+                    <span class="experience__subtitle">Intern | Remote</span>
+                    <span class="experience__calendar"><i class="ri-calendar-todo-line"></i> June 2025 - July 2025</span>
+                </div>
+                <div class="experience__content" data-scroll="fade-in-up">
+                    <h3 class="experience__title"><i class="ri-code-line"></i> GirlsScript Summer of Code</h3>
+                    <span class="experience__subtitle">Contributor | Remote</span>
+                    <span class="experience__calendar"><i class="ri-calendar-todo-line"></i> May 2024 - July 2024</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section class="achievements section" id="achievements">
+            <h2 class="section__title" data-scroll="fade-in-up">My Achievements</h2>
+            <div class="achievements__container container grid">
+                <div class="achievements__card" data-scroll="fade-in-up">
+                    <i class="ri-trophy-line achievements__icon"></i>
+                    <h3 class="achievements__title">NTSE Stage 2 Qualified</h3>
+                </div>
+                <div class="achievements__card" data-scroll="fade-in-up">
+                    <i class="ri-medal-line achievements__icon"></i>
+                    <h3 class="achievements__title">PRMO Qualified</h3>
+                </div>
+                <div class="achievements__card" data-scroll="fade-in-up">
+                    <i class="ri-code-s-slash-line achievements__icon"></i>
+                    <h3 class="achievements__title">250+ LeetCode Problems</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title" data-scroll="fade-in-up">Contact Me</h2>
+            <div class="contact__container container grid">
+                <div class="contact__content" data-scroll="fade-in-right">
+                    <h3 class="contact__title"><i class="ri-chat-3-line"></i> Talk to me</h3>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <h3 class="contact__card-title">Email</h3>
+                            <p class="contact__card-data">piyushcs8340@gmail.com</p>
+                            <a href="mailto:piyushcs8340@gmail.com" class="contact__button">Write me <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                        <div class="contact__card">
+                            <h3 class="contact__card-title">Phone</h3>
+                            <p class="contact__card-data">8340446586</p>
+                            <a href="tel:+918340446586" class="contact__button">Call me <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                        <div class="contact__card">
+                            <h3 class="contact__card-title">LinkedIn</h3>
+                            <p class="contact__card-data">Piyush Kumar</p>
+                            <a href="https://www.linkedin.com/" target="_blank" class="contact__button">Connect <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Piyush Kumar</h1>
+            <p class="footer__subtitle">Electronics & Communication Engineer</p>
+            <ul class="footer__links">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+            </ul>
+            <ul class="footer__social">
+                <a href="https://github.com/" target="_blank" class="footer__social-link"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" class="footer__social-link"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="ri-twitter-x-fill"></i></a>
+            </ul>
+            <span class="footer__copy">
+                &#169; Piyush Kumar. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
